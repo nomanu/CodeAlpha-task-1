@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 10px;
+   
+    
+}
+.todolist{
+    width: 100%;
+    max-width: 500px;
+   
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #afafaf;
+    outline: none;
+
+}
+.todolist h2{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.listitem{
+    width: 90%;
+    margin-left: 22px;
+       padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: 1px groove #000;
+    
+}
+.listitem input{
+    width: 80%;
+    border: none;
+     
+     outline: none;
+     background: transparent;
+     font-size: 15px;
+}
+button{
+    width: 15%;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: #0f0909;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #885757;
+    transform: translate(all ease);
+}
+
+#list{
+    padding-left: 10px;
+}
+
+#list li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 12px 8px 10px 15px;
+}
+
+#list li span{
+    position: absolute;
+    top: 50pxpx;
+    right: 10px;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
